@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "workshop-python-bora-ze"
+version = "0.1.0"
+description = "API simples de cadastro de tarefas"
+authors = []
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.11"
+replit = "^3.2.4"
+Flask = "==2.2.3"
+Flask-SQLAlchemy = "==3.0.3"
+
+[tool.poetry.dev-dependencies]
+debugpy = "^1.6.2"
+pytest = "==7.2.2"
+replit-python-lsp-server = {extras = ["yapf", "rope", "pyflakes"], version = "^1.5.9"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
